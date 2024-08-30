@@ -59,24 +59,24 @@ public class Main {
                     System.out.println("Сидячие места");
                 if (people > seating)
                     System.out.println("Стоячие места");
-                } else if (people > 102)
-                    System.out.println("Мест нет");
-                System.out.println();
+            } else if (people > 102)
+                System.out.println("Мест нет");
+            System.out.println();
 
-                System.out.println("Задание 7");
-                int one = 1;
-                int two = 2;
-                int three = 3;
-                if (one < two && two < three) {
-                    System.out.println("Three is biggest");
-                } else if (one < two) {
-                    System.out.println("Two biggest");
-                } else if (two < three) {
-                    System.out.println("Three biggest");
-                }
+            System.out.println("Задание 7");
+            int one = 1;
+            int two = 2;
+            int three = 3;
+            if (one < two && two < three) {
+                System.out.println("Three is biggest");
+            } else if (one < two) {
+                System.out.println("Two biggest");
+            } else if (two < three) {
+                System.out.println("Three biggest");
             }
         }
     }
+}
 
 
 
